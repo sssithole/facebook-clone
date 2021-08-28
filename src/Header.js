@@ -6,7 +6,6 @@ import FlagIcon from "@material-ui/icons/Flag";
 import SubscriptionOutlinedIcon from "@material-ui/icons/SubscriptionsOutlined";
 import StorefromOutlinedIcon from "@material-ui/icons/StoreOutlined";
 import SupervisedUserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
-import { Avatar } from '@material-ui/core';
 import { Avatar, IconButton } from "@material-ui/core";
 import AddIcon from "@material-ui/icons/Add";
 import ForumIcon from "@material-ui/icons/Forum";
@@ -50,6 +49,18 @@ function Header() {
                 </div>
                 <IconButton>
                     <AddIcon/>
+                </IconButton>
+
+                <IconButton>
+                    <ForumIcon/>
+                </IconButton>
+
+                <IconButton>
+                    <NotificationActiveIcon/>
+                </IconButton>
+
+                <IconButton>
+                    <ExpandMoreIcon/>
                 </IconButton>
             </div>
         </div>
