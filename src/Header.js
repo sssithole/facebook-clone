@@ -42,7 +42,7 @@ function Header() {
                 </div>
             </div>
 
-            <div className="header___right">
+            <div className="header__right">
                 <div className="header__info">
                     < Avatar />
                     <h4>SSithole</h4>
